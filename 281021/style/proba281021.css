@@ -2,16 +2,18 @@
             margin: 0px;
             padding: 0px;
         }
-        html{
+        html {
             scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: cornsilk;
         }
         header {
             margin: 40px 0px;
         }
             header nav ul{
-            list-style: none;
-        
-        /* Убирает точки у списка*/
+            list-style: none;  /* Убирает точки у списка*/
         display: flex; /*Все элементы встали в строку*/
         justify-content: end; /*Элементы стали вправо*/
         }
@@ -45,6 +47,7 @@
         .product-card{
             display: flex;
             width: 600px;
+            margin-top: 20px;
         }
         .product-card_info_title{
             display: flex;
@@ -52,4 +55,60 @@
         }
         .product-card_info{
             width: 100%;
+
+            margin-left: 20px;
+            display:flex;
+            flex-direction: column;
+        }
+        .product-card_image{
+            width: 150px;
+            min-width: 150px;
+            height: 150px;
+            border: 1px solid green;
+            box-sizing: border-box;
+            padding: 10px;
+
+            display: flex;
+            align-items: center;
+        }
+        .product-card_image img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .product-card_info-btn{
+            margin-top: auto;
+            display: flex;
+            justify-content: end;
+        }
+        .product-card_info-btn a{
+            display: block;
+            text-decoration: none; /*Убираем подчеркивание у списка*/
+            color: rgb(75, 26, 155);
+            font-size: 25px;
+            font-weight: bold;
+            
+            border: 3px solid rgb(109, 33, 92);
+            padding: 5px 5px;
+            border-radius: 10px;
+            line-height: 25px;
+        }
+        .product-card_info-btn a:hover{
+            background: rgb(108, 218, 94);
+            color: #fff;
+            transition: all 1s;
+        }
+        .container{
+            width: 1000px;
+            margin: 0px auto;
+        }
+        .catalog{
+            background: white;
+            padding: 20px;
+            box-sizing: border-box;
+            box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+            transition: box-shadow 1s;
+        }
+        .catalog:hover{
+            transition: box-shadow 1s;
+            box-shadow: 10px 10px 40px black;
         }
