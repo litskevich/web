@@ -12,7 +12,7 @@
            font-family: "Lora", serif;
            font-weight: 400;
        }
-       .font-roboto{
+       .font-roboto, .font-roboto a{
            font-family: "Roboto", sans-serif;
            font-weight: 700;
        }
@@ -22,6 +22,7 @@
            background: rgba(0, 0, 0, 0.2);
 
            position: absolute;
+           z-index: 1;
        }
        .banner img{
             width: 100%;
@@ -33,4 +34,67 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        height: 100%;
        }
+       .header-nav ul{
+           display:flex;
+           align-items: center;
+       }
+       .header-nav ul li a{
+            font-size: 12px;
+            line-height: 14px;
+            color: #E5E5E5;
+            transition: all .3s;
+       }
+       .header-nav ul li a:hover{
+           color: #fff;
+           transition: all .3s;
+       }
+       .header-nav ul li{
+           margin-right: 25px;
+       }
+       .header-nav ul li:last-child {
+            margin-right: 0px;
+       }
+       .header-flex-2,
+       .header-social ul{
+           display: flex;
+       }
+       .header-social ul li{
+           margin-right: 18px;
+       }
+       .header-social ul li:last-child {
+            margin-right: 0px;
+        }
+        .header-social{
+            margin: 0px 17px;
+            border-left: 0.5px solid #e5e5e5;
+            border-right: 0.5px solid #e5e5e5;
+            padding: 0px 17px;
+        }
+        .banner{
+            position: relative;
+        }
+        .banner-info{
+            position: absolute;
+            width: 530px;
+            left: 70px;
+            bottom: 140px;
+        }
+        .tag{
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 8px;
+            padding: 5px, 10px;
+
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-size: 10px;
+
+            color: #ffffff;
+        }
+        .middle-line{
+            height: 1px;
+            min-width: 30px;
+            background: #E5E5E5;
+            margin: 0px 11px;
+        }
