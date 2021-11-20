@@ -11,18 +11,18 @@ ul {
 .container {
     width: 1400px;
     margin: 50px auto;
-    background-color: #f16412;
+    /*background-color: #f16412;*/
 }
 .water-list{
     display: flex;
     flex-wrap: wrap;
-    background-color: #1299bb;
+    /*background-color: #1299bb;*/
 }
 .water{
     width: 310px;
     position: relative;
-    color: #6c757d;
-    margin: 0px 10px;
+    margin: 10px 10px;
+    cursor:pointer;
 }
 .water-image{
     width: 100%;
@@ -33,6 +33,24 @@ ul {
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
+}
+.water-text{
+    position: absolute;
+    bottom: 30px;
+    left: 80px;
+}
+.water-text p{
+    color:#0b0b0b;
+    font-size: 16px;
+    font-weight: bold;
+}
+.water:hover .water-image img{
+    transform: scale(1.2);
+    transition: all .3s;
+  }
+.water-image{
+    overflow: hidden;
+    border-radius: 5px;
 }
 #top {color: rgb(24, 56, 116);
     text-align: center;
