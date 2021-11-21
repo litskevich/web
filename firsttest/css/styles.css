@@ -8,6 +8,48 @@ a {
 ul {
     list-style: none;
 }
+header{
+    /*border: 5px solid #bd1a8c;*/
+    background-color: #cdd82d;
+    height: 80px;
+    width: 100%;
+
+}
+.priroda{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0px 30px;
+}
+.priroda-text{
+    display:flex;
+}
+.top {
+    text-align: center;
+    width: 500px;
+    margin: 0px 20px;
+    color: #b61a12;
+}
+.priroda-spis ul {
+    display:flex;
+}
+.priroda-spis ul li{
+    margin-right: 10px;
+}
+.priroda-spis ul li:last-child{
+    margin-right: 0px;
+}
+.priroda-spis ul li a{
+    font-size: 20px;
+    line-height: 22px;
+    color: #8d5656;
+    transition: all 0.3s;
+  }
+  .priroda-spis ul li a:hover{
+    color: #ffffff;
+    transition: all 0.3s;
+  }
 .container {
     width: 1400px;
     margin: 50px auto;
@@ -52,36 +94,23 @@ ul {
     overflow: hidden;
     border-radius: 5px;
 }
-#top {color: rgb(24, 56, 116);
-    text-align: center;
-    font-family: Times;
-    border: 5px solid #bd1a8c;
-    background-color: #cdd82d;
-    padding: 5px 20px 20px 20px;
-    width: 800px;
-    height: 60px;
+h2 {
+    color: rgb(56, 207, 68); text-align: left;
 }
-h1 {color: black;
-    text-align: center;
-    font-family: Arial;
-    border: 8px double #8c90c7;
-    background-color: #b159a5;
-    padding: 40px 20px 40px 20px;
-    width: 800px;
-    height: 50px;
+h3 {
+    color: red; text-align: left;
 }
-h2 {color: rgb(56, 207, 68); text-align: left;
+p {
+    color: black; text-align: left; font-family: Georgia;
 }
-h3 {color: red; text-align: left;
-}
-p {color: black; text-align: left; font-family: Georgia;
-}
-.kart {border: 10px solid #b61a12;
+.kart {
+    border: 10px solid #b61a12;
 background-color: #a9e9a9;
 padding: 20px;
 width: 400px;
 }
-.igor {color: rgb(117, 16, 148);
+.igor {
+    color: rgb(117, 16, 148);
     border: 1px solid #1299bb;
     background-color: #bd96c2;
     padding: 20px;
