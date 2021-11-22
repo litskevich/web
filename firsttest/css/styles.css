@@ -116,3 +116,28 @@ width: 400px;
     padding: 20px;
     width: 800px;
 }
+footer {
+    width: 100%;
+    background-color: #bd96c2;
+    padding: 106px 0px 0px 0px;
+    box-sizing: border-box;
+}
+.footer-nam1 {
+    width: 100%;
+}
+.footer-nam2 {
+    width: 100%;
+    display: flex;
+    /*justify-content: space-around;*/
+    padding: 31px 0px;
+    /*margin: 0px auto;*/
+    margin-top: 106px;
+    background: #343a40;
+}
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    width: 1300px;
+    background: #d41d3b;
+}
