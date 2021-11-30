@@ -46,7 +46,7 @@ header{
     color: #8d5656;
     transition: all 0.3s;
   }
-  .priroda-spis ul li a:hover{
+.priroda-spis ul li a:hover{
     color: #ffffff;
     transition: all 0.3s;
   }
@@ -82,7 +82,7 @@ header{
     left: 80px;
 }
 .water-text p{
-    color:#0b0b0b;
+    color:#e2dddd;
     font-size: 16px;
     font-weight: bold;
 }
@@ -123,11 +123,72 @@ footer {
     box-sizing: border-box;
 }
 .footer-nam1 {
-    width: 100%;
+    width: 1300px;
+    display: flex;
+    /*border: 2px solid red;*/
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.bloc1 ul {
+    border: 0px solid blue;
+}
+.bloc1 ul li{
+    /*border: 2px solid black;*/
+    padding-bottom: 20px;
+}
+.bloc1 ul li h4{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font: Ariel;
+}
+.bloc1 ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+}
+.bloc2 ul {
+    border: 0px solid rgb(62, 12, 128)
+}
+.bloc2 ul li{
+    margin-bottom: 15px;
+    /*border: 2px solid rgb(56, 207, 68)*/
+}
+.bloc2 ul li h4{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+.bloc2 ul li a{
+    color: white;
+    font-size: 16px;
+    font-style: italic;
+    font-family: Tahoma, Verdana;
+}
+.bloc4 {
+    border: 0px solid rgb(62, 12, 128)
+}
+.bloc4-zag {
+    color: white;
+    font-size: 18px;
+    font-family:'Courier New', Courier;
+    margin-bottom: 10px;
+}
+.bloc4-knop ul{
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid rgb(117, 16, 148);
+}
+.bloc4-knop ul li{
+    margin-right: 10px;
+    color:seashell;
+}
+.bloc4-knop ul li:last-child{
+    margin-right: 0px;
 }
 .footer-nam2 {
     width: 100%;
-    display: flex;
+    /*display: flex;*/
     /*justify-content: space-around;*/
     padding: 31px 0px;
     /*margin: 0px auto;*/
@@ -139,5 +200,5 @@ footer {
     justify-content: space-between;
     margin: 0px auto;
     width: 1300px;
-    background: #d41d3b;
+    /*background: #d41d3b;*/
 }
