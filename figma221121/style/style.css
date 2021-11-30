@@ -363,3 +363,7 @@ footer {
   line-height: 18px;
   color: #e5e5e5;
 }
+.mobile-filter{
+  display: none;
+  
+}
